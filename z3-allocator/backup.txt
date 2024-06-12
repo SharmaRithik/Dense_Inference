@@ -1,0 +1,91 @@
+Processing file: "input/input1.txt"
+
+Conv1 on threads 0 took 0.0375651 seconds
+Conv1 on threads 0, 1 took 0.0326784 seconds
+Conv1 on threads 0, 1, 2 took 0.0310277 seconds
+Conv1 on threads 0, 1, 2, 3 took 0.0314109 seconds
+Conv1 on threads 4 took 0.0202366 seconds
+Conv1 on threads 4, 5 took 0.0104033 seconds
+Conv1 on threads 6 took 0.0334609 seconds
+Conv1 on threads 6, 7 took 0.0115726 seconds
+
+MaxPool1 on threads 0 took 0.00793933 seconds
+MaxPool1 on threads 0, 1 took 0.00744434 seconds
+MaxPool1 on threads 0, 1, 2 took 0.00767139 seconds
+MaxPool1 on threads 0, 1, 2, 3 took 0.00633228 seconds
+MaxPool1 on threads 4 took 0.00402425 seconds
+MaxPool1 on threads 4, 5 took 0.00273226 seconds
+MaxPool1 on threads 6 took 0.00424972 seconds
+MaxPool1 on threads 6, 7 took 0.00243542 seconds
+
+Conv2 on threads 0 took 0.300884 seconds
+Conv2 on threads 0, 1 took 0.299634 seconds
+Conv2 on threads 0, 1, 2 took 0.299775 seconds
+Conv2 on threads 0, 1, 2, 3 took 0.301794 seconds
+Conv2 on threads 4 took 0.13808 seconds
+Conv2 on threads 4, 5 took 0.0859106 seconds
+Conv2 on threads 6 took 0.129241 seconds
+Conv2 on threads 6, 7 took 0.0827939 seconds
+
+MaxPool2 on threads 0 took 0.00675513 seconds
+MaxPool2 on threads 0, 1 took 0.00502079 seconds
+MaxPool2 on threads 0, 1, 2 took 0.00548324 seconds
+MaxPool2 on threads 0, 1, 2, 3 took 0.00559249 seconds
+MaxPool2 on threads 4 took 0.00620504 seconds
+MaxPool2 on threads 4, 5 took 0.00277507 seconds
+MaxPool2 on threads 6 took 0.00246973 seconds
+MaxPool2 on threads 6, 7 took 0.00258988 seconds
+
+Conv3 on threads 0 took 0.430447 seconds
+Conv3 on threads 0, 1 took 0.429711 seconds
+Conv3 on threads 0, 1, 2 took 0.427005 seconds
+Conv3 on threads 0, 1, 2, 3 took 0.430084 seconds
+Conv3 on threads 4 took 0.17187 seconds
+Conv3 on threads 4, 5 took 0.126093 seconds
+Conv3 on threads 6 took 0.160491 seconds
+Conv3 on threads 6, 7 took 0.119027 seconds
+
+Conv4 on threads 0 took 0.57514 seconds
+Conv4 on threads 0, 1 took 0.568023 seconds
+Conv4 on threads 0, 1, 2 took 0.566821 seconds
+Conv4 on threads 0, 1, 2, 3 took 0.57707 seconds
+Conv4 on threads 4 took 0.218589 seconds
+Conv4 on threads 4, 5 took 0.167658 seconds
+Conv4 on threads 6 took 0.198217 seconds
+Conv4 on threads 6, 7 took 0.153785 seconds
+
+Conv5 on threads 0 took 0.386366 seconds
+Conv5 on threads 0, 1 took 0.380521 seconds
+Conv5 on threads 0, 1, 2 took 0.379699 seconds
+Conv5 on threads 0, 1, 2, 3 took 0.381801 seconds
+Conv5 on threads 4 took 0.166252 seconds
+Conv5 on threads 4, 5 took 0.15872 seconds
+Conv5 on threads 6 took 0.154769 seconds
+Conv5 on threads 6, 7 took 0.141833 seconds
+
+MaxPool3 on threads 0 took 0.00442574 seconds
+MaxPool3 on threads 0, 1 took 0.00317391 seconds
+MaxPool3 on threads 0, 1, 2 took 0.00364282 seconds
+MaxPool3 on threads 0, 1, 2, 3 took 0.00339156 seconds
+MaxPool3 on threads 4 took 0.00353434 seconds
+MaxPool3 on threads 4, 5 took 0.00391724 seconds
+MaxPool3 on threads 6 took 0.00236011 seconds
+MaxPool3 on threads 6, 7 took 0.00435787 seconds
+
+LinearLayer on threads 0 took 0.00244922 seconds
+LinearLayer on threads 0, 1 took 0.00254089 seconds
+LinearLayer on threads 0, 1, 2 took 0.00189002 seconds
+LinearLayer on threads 0, 1, 2, 3 took 0.00242806 seconds
+LinearLayer on threads 4 took 0.0018114 seconds
+LinearLayer on threads 4, 5 took 0.00277771 seconds
+LinearLayer on threads 6 took 0.00189689 seconds
+LinearLayer on threads 6, 7 took 0.00241634 seconds
+
+Total time for threads 0 is 1.75197 seconds
+Total time for threads 0, 1 is 1.72875 seconds
+Total time for threads 0, 1, 2 is 1.72302 seconds
+Total time for threads 0, 1, 2, 3 is 1.7399 seconds
+Total time for threads 4 is 0.730602 seconds
+Total time for threads 4, 5 is 0.560987 seconds
+Total time for threads 6 is 0.687154 seconds
+Total time for threads 6, 7 is 0.520812 seconds
